@@ -4,7 +4,8 @@ var gulp = require('gulp'),
     browserify = require('browserify'),
     babelify = require('babelify'),
     source = require('vinyl-source-stream'),
-    partialify = require('partialify');
+    partialify = require('partialify'),
+    notify = require('gulp-notify');
 
 gulp.task('browserify', function() {
     gulp.src(['index.html'])
