@@ -1,10 +1,10 @@
 'use strict';
 
-var gulp = require('gulp');
-var browserify = require('browserify');
-var babelify = require('babelify');
-var source = require('vinyl-source-stream');
-var partialify = require('partialify');
+var gulp = require('gulp'),
+    browserify = require('browserify'),
+    babelify = require('babelify'),
+    source = require('vinyl-source-stream'),
+    partialify = require('partialify');
 
 gulp.task('browserify', function() {
     gulp.src(['index.html'])
@@ -27,5 +27,8 @@ gulp.task('browserify', function() {
             this.emit('end');
         })
         .pipe(source('index.js'))
-        .pipe(gulp.dest('./build/app'));
+        .pipe(gulp.dest('./build/app'))
+        .pipe(notify({
+            message: 'Browserify task complete'
+        }));
 });
