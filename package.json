@@ -21,6 +21,7 @@
     "angular-ui-router": "^0.2.14",
     "babelify": "^6.0.2",
     "browserify": "^9.0.8",
+    "partialify": "^3",
     "gulp": "^3.8.11",
     "vinyl-source-stream": "^1.1.0"
   }
