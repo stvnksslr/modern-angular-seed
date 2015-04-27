@@ -11,7 +11,7 @@ routerDemo.config(['$stateProvider', '$urlRouterProvider', function($stateProvid
     $stateProvider
         .state('home', {
             url: '/home',
-            template: ('./_home.html')
+            template: require('./_home.html')
         });
 }]);
 
