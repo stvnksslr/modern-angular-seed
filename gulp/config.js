@@ -5,7 +5,7 @@ module.exports = {
     'serverport': 3000,
 
     'scripts': {
-        'src': 'app/js/**/*.js',
+        'src': 'app/**/*.js',
         'dest': 'build'
     },
 

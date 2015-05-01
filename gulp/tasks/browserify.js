@@ -8,11 +8,6 @@ var gulp = require('gulp'),
     notify = require('gulp-notify');
 
 gulp.task('browserify', function() {
-    gulp.src(['index.html'])
-        .pipe(gulp.dest('build/'));
-
-    gulp.src(['app/*.html', 'app/**/*.html', 'app/**/*.json'])
-        .pipe(gulp.dest('build/app'));
 
     return browserify({
             debug: true
