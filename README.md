@@ -1,13 +1,18 @@
 # Modern-Angular-Seed
-A es6/angular+gulp+sass project seed
+In the ongoing effort to chase the elusive unicorn of a resuable project seed that is atleast sorta current, ive decided to maintain this repo!
 
-* Dependencies
-	* npm
-	* ruby
-		* sass-gem
+## Goals
+* sensible and easy to follow pattern for app construction
+* tests and documentation inluded and entwined into the app allowing easy to follow patterns
 
-* installation steps
-	* npm install
 
-* To run the the gulp tasks to build the app run the development task
-	* gulp dev - this will run the (clean, styles, browserify and views tasks)	
+## Features
+* Angular 1.5
+* Angular Material
+* Sass
+* JsDoc
+
+
+#### Inspiration
+* https://github.com/AngularClass/NG6-starter
+* https://github.com/paradox41/app-template
