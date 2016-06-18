@@ -2,16 +2,16 @@
 In the ongoing effort to chase the elusive unicorn of a resuable project seed that is atleast sorta current, ive decided to maintain this repo!
 
 ## Commands
-* npm run test
-- runs test suite
-* npm run gulp lint 
-- runs eslint on the project
-* npm run dev
-- starts local browser synch server and compiles app
-* npm run prod
-- runs the production tasks and bundles the application, it will also replace your localhost api with whatever you have set as production
-* npm run gulp component   
-- scaffolds a new Angular component. [Read below](#generating-components) for usage details.
+1. npm run test
+* runs test suite
+2. npm run gulp lint 
+* runs eslint on the project
+3. npm run dev
+* starts local browser synch server and compiles app
+4. npm run prod
+* runs the production tasks and bundles the application, it will also replace your localhost api with whatever you have set as production
+5. npm run gulp component   
+* scaffolds a new Angular component. [Read below](#generating-components) for usage details.
 
 
 ## Goals
