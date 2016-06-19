@@ -15,6 +15,7 @@ const gulp = require('gulp'),
     inject = require('gulp-inject-string'),
     config = require('config'),
     apiConfig = config.get('Frontend.apiServer'),
+    jsdoc = require('gulp-jsdoc3'),
     historyApiFallback = require('connect-history-api-fallback');
 
 var root = 'client';
@@ -41,6 +42,11 @@ var paths = {
     output: root,
     blankTemplates: path.join(__dirname, 'generator', 'component/**/*.**')
 };
+
+gulp.task('doc', function(cb) {
+    gulp.src(['README.md', './client/**/*.js'], { read: false })
+        .pipe(jsdoc(cb));
+});
 
 // use webpack.config.js to build modules
 gulp.task('webpack', function(cb) {
