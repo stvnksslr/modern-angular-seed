@@ -63,7 +63,8 @@
     "lint": "gulp lint",
     "dev": "gulp serve",
     "prod": "gulp webpack",
-    "doc": "gulp doc"
+    "doc": "gulp doc",
+    "serve-docs": "serve-docs"
   },
   "author": "skessler"
 }

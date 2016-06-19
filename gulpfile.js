@@ -19,6 +19,7 @@ const gulp = require('gulp'),
     historyApiFallback = require('connect-history-api-fallback');
 
 var root = 'client';
+var docs = 'docs/gen';
 
 // helper method for resolving paths
 var resolveToApp = function resolveToApp() {
@@ -43,9 +44,19 @@ var paths = {
     blankTemplates: path.join(__dirname, 'generator', 'component/**/*.**')
 };
 
-gulp.task('doc', function(cb) {
+gulp.task('document', function(cb) {
     gulp.src(['README.md', './client/**/*.js'], { read: false })
         .pipe(jsdoc(cb));
+});
+
+gulp.task('serve-docs', function() {
+
+    serve({
+        port: process.env.PORT || 8080,
+        open: false,
+        server: { baseDir: docs }
+    });
+
 });
 
 // use webpack.config.js to build modules
