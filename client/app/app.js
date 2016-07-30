@@ -7,7 +7,7 @@ import mdTable from 'angular-material-data-table';
 
 import Common from './common/common';
 import Components from './components/components';
-import AppComponent from './app.component';
+// import AppComponent from './app.component';
 
 import 'normalize.css';
 import 'angular-material/angular-material.css';
