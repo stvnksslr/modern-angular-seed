@@ -1,16 +1,16 @@
-var path = require('path');
-var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     devtool: 'sourcemap',
     entry: {},
     module: {
-        loaders: [
-            { test: /\.js$/, exclude: [/app\/lib/, /node_modules/, /server/], loader: 'ng-annotate!babel-loader' },
-            { test: /\.html$/, loader: 'raw' },
-            { test: /\.scss$/, loader: 'style!css!sass' },
-            { test: /\.css$/, loader: 'style!css' }
+        rules: [
+            { test: /\.js$/, exclude: [/app\/lib/, /node_modules/, /server/], loader: 'ng-annotate-loader!babel-loader' },
+            { test: /\.html$/, loader: 'raw-loader' },
+            { test: /\.scss$/, loader: 'style-loader!css-loader!sass-loader' },
+            { test: /\.css$/, loader: 'style-loader!css-loader' }
         ]
     },
     plugins: [
