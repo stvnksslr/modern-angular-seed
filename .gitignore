@@ -10,6 +10,7 @@ DerivedData/
 
 .idea
 *.iml
+docs/gen
 
 ## Various settings
 *.pbxuser

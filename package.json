@@ -2,7 +2,7 @@
   "name": "modern-angular-seed",
   "version": "0.0.1",
   "main": "index.js",
-  "private": "true",
+  "private": true,
   "dependencies": {
     "angular": "^1.6.3",
     "angular-animate": "^1.5.3",
