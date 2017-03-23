@@ -9,6 +9,7 @@ build/
 DerivedData/
 
 .idea
+*.iml
 
 ## Various settings
 *.pbxuser
