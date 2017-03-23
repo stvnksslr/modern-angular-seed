@@ -1,10 +1,10 @@
 # Modern-Angular-Seed
-In the ongoing effort to chase the elusive unicorn of a resuable project seed that is atleast sorta current, ive decided to maintain this repo!
-
 [![Build Status](https://travis-ci.org/stvnksslr/modern-angular-seed.svg?branch=master)](https://travis-ci.org/stvnksslr/modern-angular-seed)
 [![Code Climate](https://codeclimate.com/github/stvnksslr/modern-angular-seed/badges/gpa.svg)](https://codeclimate.com/github/stvnksslr/modern-angular-seed)
 [![Issue Count](https://codeclimate.com/github/stvnksslr/modern-angular-seed/badges/issue_count.svg)](https://codeclimate.com/github/stvnksslr/modern-angular-seed)
 [![Test Coverage](https://codeclimate.com/github/stvnksslr/modern-angular-seed/badges/coverage.svg)](https://codeclimate.com/github/stvnksslr/modern-angular-seed/coverage)
+
+In the ongoing effort to chase the elusive unicorn of a resuable project seed that is atleast sorta current, ive decided to maintain this repo!
 
 ## Commands
 1. npm run test

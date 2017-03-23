@@ -14,14 +14,9 @@ engines:
 ratings:
   paths:
   - "**.css"
-  - "**.inc"
+  - "**.scss"
   - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
-  - "**.rb"
-exclude_paths:
+\exclude_paths:
 - config/
 - node_modules/
 - generator/
