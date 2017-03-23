@@ -14,5 +14,6 @@ before_install:
  - sudo dpkg -i google-chrome*.deb
 
 addons:
-    - code_climate:
-      - repo_token: ad0caecc01c473497435d808901476582d1e8204a3787eb0d6f2d6c3ce485bde
+    code_climate:
+      repo_token:
+      - ad0caecc01c473497435d808901476582d1e8204a3787eb0d6f2d6c3ce485bde
