@@ -3,9 +3,9 @@ import uiRouter from 'angular-ui-router';
 import footerComponent from './footer.component';
 
 let footerModule = angular.module('footer', [
-    uiRouter
+  uiRouter
 ])
 
-.component('footer', footerComponent);
+  .component('footer', footerComponent);
 
 export default footerModule;
