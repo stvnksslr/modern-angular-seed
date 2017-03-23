@@ -16,11 +16,11 @@ module.exports = function(config) {
         webpack: {
             devtool: 'inline-source-map',
             module: {
-                loaders: [
-                    { test: /\.js/, exclude: [/app\/lib/, /node_modules/], loader: 'babel' },
-                    { test: /\.html/, loader: 'raw' },
-                    { test: /\.scss$/, loader: 'style!css!sass' },
-                    { test: /\.css$/, loader: 'style!css' }
+                rules: [
+                    { test: /\.js/, exclude: [/app\/lib/, /node_modules/], loader: 'babel-loader' },
+                    { test: /\.html/, loader: 'raw-loader' },
+                    { test: /\.scss$/, loader: 'style-loader!css-loader!sass-loader' },
+                    { test: /\.css$/, loader: 'style-loader!css-loader' }
                 ]
             }
         },
